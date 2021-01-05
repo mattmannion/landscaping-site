@@ -1,10 +1,10 @@
 .navigation {
-  font-size: 1.5rem;
-  background-color: $green-main;
   color: $sage-main;
+  font-size: 1.5rem;
+  padding: .5rem;
+  background-color: $green-main;
   height: 5vh;
   border: #111 1px solid;
-  padding: .5rem;
 
   &__container {
     transform: translateY(.7rem);
@@ -32,17 +32,12 @@
 
     a:link,
     a:visited {
-      text-decoration: none;
-      color: $sage-main;
-      padding-bottom: .25rem;
-      border-bottom: $sage-main 1px solid;
+      @include linkStyle-link-visited;
     }
 
     a:active,
     a:hover {
-      text-decoration: none;
-      color: $sage-secondary;
-      border-bottom: $sage-secondary 1px solid;
+      @include linkStyle-active-hover;
     }
 
   }
