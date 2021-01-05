@@ -6,21 +6,21 @@
   justify-content: center;
   align-items: center;
   padding: 2.5rem;
+  gap: 1rem;
+  text-align: center;
+  word-wrap: normal;
 
   &__logo {
     margin-bottom: 7.5rem;
   }
 
   &__links {
-    column-gap: 1rem;
-    margin-right: 1rem;
+    @include centerFlex;
+    gap: 2.5rem;
+    flex-flow: wrap;
 
     a {
       transition: all .2s;
-    }
-
-    span {
-      color: $sage-main;
     }
 
     a:link,
@@ -33,5 +33,4 @@
       @include linkStyle-active-hover;
     }
   }
-
 }

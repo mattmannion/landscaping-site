@@ -7,9 +7,7 @@ export default function footer() {
         <div className='footer__logo'>King Land Management, LLC</div>
         <div className='footer__links'>
           <a href='#'>Services</a>
-          <span> | </span>
           <a href='#'>About</a>
-          <span> | </span>
           <a href='#'>Contact</a>
         </div>
       </footer>

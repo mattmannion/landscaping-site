@@ -4,7 +4,8 @@
   padding: .5rem;
   background-color: $green-main;
   height: 5vh;
-  border: #111 1px solid;
+  border: #111 2px solid;
+
 
   &__container {
     transform: translateY(.7rem);
@@ -24,10 +25,6 @@
 
     a {
       transition: all .2s;
-    }
-
-    span {
-      color: $sage-main;
     }
 
     a:link,
