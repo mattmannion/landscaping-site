@@ -5,11 +5,13 @@ export default function nav() {
     <>
       <nav className='navigation'>
         <div className='navigation__container'>
-          <div className='navigation__logo'>logo</div>
+          <div className='navigation__logo'>Logo</div>
           <div className='navigation__links'>
-            <div>services</div>
-            <div>about</div>
-            <div>contact</div>
+            <a href='#'>Services</a>
+            <span>|</span>
+            <a href='#'>About</a>
+            <span>|</span>
+            <a href='#'>Contact</a>
           </div>
         </div>
       </nav>
