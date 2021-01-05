@@ -1,8 +1,13 @@
 .navigation {
+  font-size: 1.5rem;
   background-color: $green-main;
   color: $sage-main;
+  height: 5vh;
+  border: #111 1px solid;
+  padding: .5rem;
 
   &__container {
+    transform: translateY(.7rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,5 +21,29 @@
     @include centerFlex;
     column-gap: 1rem;
     margin-right: 1rem;
+
+    a {
+      transition: all .2s;
+    }
+
+    span {
+      color: $sage-main;
+    }
+
+    a:link,
+    a:visited {
+      text-decoration: none;
+      color: $sage-main;
+      padding-bottom: .25rem;
+      border-bottom: $sage-main 1px solid;
+    }
+
+    a:active,
+    a:hover {
+      text-decoration: none;
+      color: $sage-secondary;
+      border-bottom: $sage-secondary 1px solid;
+    }
+
   }
 }

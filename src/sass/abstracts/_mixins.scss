@@ -1,13 +1,26 @@
 @mixin centerFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @mixin fixedCenter {
-    position: absolute;
-    z-index: 1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin linkStyle-link-visited {
+  text-decoration: none;
+  color: $sage-main;
+  padding-bottom: .25rem;
+  border-bottom: $sage-main 1px solid;
+}
+
+@mixin linkStyle-active-hover {
+  text-decoration: none;
+  color: $sage-secondary;
+  border-bottom: $sage-secondary 1px solid;
 }
