@@ -15,31 +15,19 @@
     }
   }
 
-  a {
-    transition: all .2s;
-  }
-
-  a:link,
-  a:visited {
-    @include linkStyle-link-visited;
-    border: none;
-  }
-
-  a:active,
-  a:hover {
-    color: $olive-main;
-  }
-
   .nav-snap {
     @include fixedCenter;
-    top: 95%;
-    text-align: center;
-  }
+    top: 96.5%;
+    @include buttonTrans;
 
+    &:hover {
+      color: $olive-main
+    }
+  }
 
   .hero-image {
     filter: brightness(20%); //adjust shadow for image.
-    height: 93.5vh;
+    height: 95vh;
     opacity: 1;
   }
 }
