@@ -6,7 +6,7 @@ export default function header() {
     <>
       <header className='header'>
         <div className='company'>
-          <h1 className='company-title'>khris's word wrap tester</h1>
+          <h1 className='company-title'>King Land Management</h1>
         </div>
 
         <a href='#' className='nav-snap'>
