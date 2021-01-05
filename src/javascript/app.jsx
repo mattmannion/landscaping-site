@@ -1,7 +1,9 @@
 import React from 'react';
 import Nav from './components/nav';
 import Header from './components/header';
-import Main from './components/main';
+import Services from './components/services';
+import About from './components/about';
+import Contact from './components/contact';
 import Footer from './components/footer';
 
 export default function App() {
@@ -10,7 +12,9 @@ export default function App() {
       <div className='body-container'>
         <Nav />
         <Header />
-        <Main />
+        <Services />
+        <About />
+        <Contact />
         <Footer />
       </div>
     </>

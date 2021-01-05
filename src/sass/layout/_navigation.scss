@@ -1,14 +1,12 @@
 .navigation {
+  display: grid;
   color: $sage-main;
   font-size: 1.5rem;
   padding: .5rem;
   background-color: $green-main;
   height: 5vh;
-  border: #111 2px solid;
-
 
   &__container {
-    transform: translateY(.7rem);
     display: flex;
     justify-content: space-between;
     align-items: center;

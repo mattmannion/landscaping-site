@@ -7,4 +7,13 @@
 
 body {
   box-sizing: border-box;
+
+  // both remove scroll bar 
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+// removes scroll bar
+body::-webkit-scrollbar {
+  display: none;
 }
