@@ -1,0 +1,8 @@
+// {
+//   "extents": "@parcel/config-default",
+//   "validators": {
+//     "*.{js,jsx,ts,tsx}":{
+//       "@parcel/validator-typescript"
+//     }
+//   }
+// }
