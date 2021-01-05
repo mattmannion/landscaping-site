@@ -3,7 +3,7 @@ import React from 'react';
 export default function services() {
   return (
     <>
-      <div></div>
+      <section className='services'>placeholder</section>
     </>
   );
 }
