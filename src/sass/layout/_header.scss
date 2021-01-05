@@ -11,23 +11,29 @@
         &-title {
             word-wrap: normal;
             text-align: center;
-            color: #ffffff;
+            color: $sage-main;
         }
     }
 
     .nav-snap {
         @include fixedCenter;
         top: 96.5%;
-        background-color: transparent;
-        border: transparent;
-        outline: transparent;
-        cursor: pointer;
-        color: #ffffff;
+        @include buttonTrans;
+        // background-color: transparent;
+        // border: transparent;
+        // outline: transparent;
+        // cursor: pointer;
+        // color: $sage-main;
+        // transition: all 0.2s;
+
+        &:hover {
+            color: $olive-main
+        }
     }
 
     .hero-image {
         filter: brightness(20%); //adjust shadow for image.
-        height: 90vh;
+        height: 95vh;
         opacity: 1;
     }
 }
