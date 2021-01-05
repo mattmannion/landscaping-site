@@ -1,30 +1,37 @@
 .footer {
-    background-color: $green-main;
-    color: $sage-main;
+  background-color: $green-main;
+  color: $sage-main;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
 
-    &__container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+  &__logo {
+    margin-bottom: 7.5rem;
+  }
+
+  &__links {
+    column-gap: 1rem;
+    margin-right: 1rem;
+
+    a {
+      transition: all .2s;
     }
 
-    &__logo {
-        margin-left: 1rem;
+    span {
+      color: $sage-main;
     }
 
-    &__links {
-        @include centerFlex;
-        column-gap: 1rem;
-        margin-right: 1rem;
+    a:link,
+    a:visited {
+      @include linkStyle-link-visited;
     }
 
-    &__Nav {
-        @include buttonTrans;
-
-        &:hover {
-            color: $olive-main
-        }
-
-        //generic comment
+    a:active,
+    a:hover {
+      @include linkStyle-active-hover;
     }
+  }
+
 }
