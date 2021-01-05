@@ -8,14 +8,16 @@ export default function header() {
         <div className='company'>
           <h1 className='company-title'>khris's word wrap tester</h1>
         </div>
+
         <button className='nav-snap'>
           <div>See more</div>
           <div>&#8595;</div>
         </button>
+
         <img className='hero-image' src={Hero} alt='' />
       </header>
     </>
   );
 }
 
-//<button className="snap-button"></button>
+//

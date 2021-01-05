@@ -1,33 +1,39 @@
 .header {
-  overflow: hidden;
-  @include centerFlex;
-  position: relative;
-  flex-flow: column;
+    overflow: hidden;
+    @include centerFlex;
+    position: relative;
+    flex-flow: column;
 
-  .company {
-    @include fixedCenter;
-    top: 33%;
+    .company {
+        @include fixedCenter;
+        top: 33%;
 
-    &-title {
-      word-wrap: normal;
-      text-align: center;
-      color: $sage-main;
+        &-title {
+            word-wrap: normal;
+            text-align: center;
+            color: $sage-main;
+        }
     }
-  }
 
-  .nav-snap {
-    @include fixedCenter;
-    top: 96.5%;
-    background-color: transparent;
-    border: transparent;
-    outline: transparent;
-    cursor: pointer;
-    color: $sage-main;
-  }
+    .nav-snap {
+        @include fixedCenter;
+        top: 96.5%;
+        @include buttonTrans;
+        // background-color: transparent;
+        // border: transparent;
+        // outline: transparent;
+        // cursor: pointer;
+        // color: $sage-main;
+        // transition: all 0.2s;
 
-  .hero-image {
-    filter: brightness(20%); //adjust shadow for image.
-    height: 94vh;
-    opacity: 1;
-  }
+        &:hover {
+            color: $olive-main
+        }
+    }
+
+    .hero-image {
+        filter: brightness(20%); //adjust shadow for image.
+        height: 95vh;
+        opacity: 1;
+    }
 }
