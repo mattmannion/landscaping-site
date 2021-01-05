@@ -1,0 +1,21 @@
+.navigation {
+  background-color: $green-main;
+  color: $sage-main;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  &__logo {
+    margin-left: 1rem;
+  }
+
+  &__links {
+    @include centerFlex;
+    column-gap: 1rem;
+    margin-right: 1rem;
+  }
+}
