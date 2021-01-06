@@ -1,0 +1,36 @@
+.about {
+  @include centerFlex;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+
+  &__container {
+    @include centerFlex;
+    justify-content: space-between;
+    flex-flow: column;
+    background-color: rgba($dark-main, 0.35);
+    color: $dark-main;
+    height: 50rem;
+    width: 75%;
+    padding: 2rem;
+    border-radius: .25rem;
+    @include boxShadow;
+  }
+
+  &__details {
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+
+  &__photo-viewer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+    img {
+      height: 10rem;
+      width: 10rem;
+      border-radius: .25rem;
+    }
+  }
+}

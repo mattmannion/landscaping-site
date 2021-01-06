@@ -2,7 +2,7 @@
   display: grid;
   font-size: 1.5rem;
   padding: .5rem;
-  background-color: $green-main;
+  background-image: linear-gradient(120deg, $olive-secondary, $green-main);
   height: 5vh;
 
   &__container {

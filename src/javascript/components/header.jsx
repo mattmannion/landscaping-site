@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../../resources/img/excavator-main.PNG';
+import Hero from '../../resources/img/excavator_main.PNG';
 
 export default function header() {
   return (

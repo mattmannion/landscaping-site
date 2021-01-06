@@ -17,10 +17,15 @@
   color: $sage-main;
   padding-bottom: .25rem;
   border-bottom: $sage-main 1px solid;
+  font-weight: 300;
 }
 
 @mixin linkStyle-active-hover {
   text-decoration: none;
   color: $sage-secondary;
   border-bottom: $sage-secondary 1px solid;
+}
+
+@mixin boxShadow {
+  box-shadow: 1rem 1rem 5rem rgba($dark-main, 0.5);
 }

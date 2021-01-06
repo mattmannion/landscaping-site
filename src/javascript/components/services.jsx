@@ -1,8 +1,9 @@
 import React from 'react';
 import icons from '../../resources/icons/*.svg';
 
+const { demolition, excavator, lawn } = icons;
+
 export default function services() {
-  const { demolition, excavator, leaf, lawn, lightning, telephone } = icons;
   return (
     <>
       <section className='services'>
