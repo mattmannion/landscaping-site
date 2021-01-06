@@ -5,8 +5,11 @@
 @import 'base/reset';
 @import 'base/typography';
 
+@import 'layout/about';
+@import 'layout/contact';
 @import 'layout/footer';
 @import 'layout/header';
 @import 'layout/navigation';
+@import 'layout/services';
 
 @import 'pages/home';
