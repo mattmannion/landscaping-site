@@ -9,8 +9,10 @@ export default function header() {
           <h1 className='company-title'>King Land Management</h1>
         </div>
 
-        <a href='#' className='nav-snap'>
-          <div>See more</div>
+        <a href='#services' className='nav-snap'>
+          <div className='see-more'>
+            <span>See more</span>
+          </div>
           <div>&#8595;</div>
         </a>
 

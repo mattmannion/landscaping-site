@@ -6,9 +6,10 @@ export default function footer() {
       <footer className='footer'>
         <div className='footer__logo'>King Land Management, LLC</div>
         <div className='footer__links'>
-          <a href='#'>Services</a>
-          <a href='#'>About</a>
-          <a href='#'>Contact</a>
+          <a href='#nav'>
+            <div>&#8593;</div>
+            <div>Back to the Top</div>
+          </a>
         </div>
       </footer>
     </>

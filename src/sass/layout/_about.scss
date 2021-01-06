@@ -20,6 +20,15 @@
   &__details {
     font-size: 2.5rem;
     font-weight: 300;
+
+    h3 {
+      margin-bottom: 2rem;
+
+      span {
+        border-bottom: $dark-main solid 2px;
+        padding-bottom: .5rem;
+      }
+    }
   }
 
   &__photo-viewer {

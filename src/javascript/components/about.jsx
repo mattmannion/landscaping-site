@@ -1,6 +1,6 @@
 import React from 'react';
 import JPG from '../../resources/img/*.JPG';
-import excavator_tall from '../../resources/img/excavator_tall.PNG';
+import excavator_tall_sq from '../../resources/img/excavator_tall_sq.PNG';
 
 const {
   plants_1,
@@ -16,9 +16,12 @@ const {
 export default function about() {
   return (
     <>
-      <section className='about'>
+      <section className='about' id='about-us'>
         <div className='about__container'>
           <div className='about__details'>
+            <h3>
+              <span>About Us</span>
+            </h3>
             <p>
               Family owned and operated business with 30+ years operating
               experience.
@@ -28,7 +31,7 @@ export default function about() {
             <img src={plants_1} alt='Photo 1' />
             <img src={cleared_land_1} alt='Photo 2' />
             <img src={cleared_land_2} alt='Photo 3' />
-            <img src={excavator_tall} alt='Photo 9' />
+            <img src={excavator_tall_sq} alt='Photo 9' />
             <img src={lake_1} alt='Photo 4' />
             <img src={lake_2} alt='Photo 5' />
             <img src={lake_3} alt='Photo 6' />

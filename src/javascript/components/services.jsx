@@ -6,7 +6,7 @@ const { demolition, excavator, lawn } = icons;
 export default function services() {
   return (
     <>
-      <section className='services'>
+      <section className='services' id='services'>
         <div className='services__details'>
           <img className='services__icon' src={lawn} alt='Weed-wacker icon' />
           <h3 className='services__title'>
