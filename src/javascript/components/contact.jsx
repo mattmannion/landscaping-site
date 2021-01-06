@@ -13,17 +13,15 @@ export default function contact() {
           </h3>
           <div className='contact__info'>
             <img src={telephone} alt='Phone icon' className='contact__icon' />
-            <div className='contact__details'>&nbsp;&nbsp;1 (123)-456-7890</div>
+            <div className='contact__details'>1 (123)-456-7890</div>
           </div>
           <div className='contact__info'>
             <img src={leaf} alt='Email icon' className='contact__icon' />
-            <div className='contact__details'>&nbsp;&nbsp;some@email.com</div>
+            <div className='contact__details'>some@email.com</div>
           </div>
           <div className='contact__info'>
             <img src={lightning} alt='Open icon' className='contact__icon' />
-            <div className='contact__detail'>
-              &nbsp;&nbsp;Open X days a week!
-            </div>
+            <div className='contact__detail'>Open X days a week!</div>
           </div>
         </div>
       </section>
