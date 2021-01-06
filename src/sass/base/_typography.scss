@@ -31,6 +31,10 @@ html {
   @include respond(phone-s) {
     font-size: 45%;
   }
+
+  @include respond(phone-xs) {
+    font-size: 35%;
+  }
 }
 
 .body-container {
