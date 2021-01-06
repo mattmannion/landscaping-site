@@ -32,15 +32,18 @@
 
   .nav-snap {
     @include fixedCenter;
-    top: 95%;
+    top: 90%;
     text-align: center;
   }
-
-
 
   .hero-image {
     filter: brightness(20%); //adjust shadow for image.
     height: 94vh;
     opacity: 1;
+    width: auto;
+
+    @include respond(min-desktop) {
+      width: 100%;
+    }
   }
 }

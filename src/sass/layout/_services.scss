@@ -6,6 +6,11 @@
   text-align: center;
   padding: 7.5rem;
 
+
+  @include respond(min-desktop) {
+    flex-flow: nowrap;
+  }
+
   &__details {
     flex-grow: 0;
     flex-shrink: 0;
@@ -17,6 +22,7 @@
     border: rgba($olive-secondary, 0.2) solid 1px;
     border-radius: .25rem;
     @include boxShadow;
+
   }
 
   &__icon {
