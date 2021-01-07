@@ -1,3 +1,3 @@
 Landscaping site for customer
 
---In Progress--
+--Abandoned for v2 of same project--
