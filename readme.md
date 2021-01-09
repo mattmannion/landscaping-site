@@ -1,3 +1,9 @@
+Landscaping project for client.
+
+--ON GOING--
+
+#########################################
+
 Matt Mannion's React App setup w/ Parcel and Sass.
 
 run in terminal to remove .gitkeep placeholders:
