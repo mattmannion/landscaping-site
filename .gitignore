@@ -5,7 +5,7 @@
 .cache/
 .git/
 .gitignore
-dist/
+#dist/
 node_modules/
 tdev.code-workspace
 
