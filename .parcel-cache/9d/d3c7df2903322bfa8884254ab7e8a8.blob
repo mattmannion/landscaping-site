@@ -1,0 +1,30 @@
+"use strict";
+
+var helpers = require("../../../../../../../home/matt/.nvm/versions/node/v15.5.0/lib/node_modules/parcel/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+  require("core-js/stable");
+
+  require("regenerator-runtime/runtime");
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _reactDom = _interopRequireDefault(require("react-dom"));
+
+  var _app = _interopRequireDefault(require("./components/app"));
+
+  require("../sass/sass.scss");
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_app.default, null), document.getElementById('root'));
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

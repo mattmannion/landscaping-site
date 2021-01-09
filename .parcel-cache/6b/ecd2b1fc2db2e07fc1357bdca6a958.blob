@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="5a2612442075b9acae0371589a8b5604">
+  <link href="24bcbf9dea199940942b3523b64a1b27">
+  <script defer="" src="f2055b0cb35214f8f0227a1bcff07a62"></script>
+  <!-- <link rel="stylesheet" href="../sass/sass.scss"> -->
+  <link rel="icon" type="image" href="a2d2be0a4dbf4123a85249700bbf200d">
+  <title>King Land Management, LLC</title>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

@@ -6,8 +6,7 @@
   text-align: center;
   padding: 7.5rem;
 
-
-  @include respond(min-desktop) {
+  @include respond(desktop) {
     flex-flow: nowrap;
   }
 
@@ -18,11 +17,17 @@
     width: 20rem;
     margin: 2rem;
     padding: 2rem;
-    background-color: rgb($olive-main, 0.67);
+    background-color: rgba($olive-main, 0.67);
     border: rgba($olive-secondary, 0.2) solid 1px;
     border-radius: .25rem;
     @include boxShadow;
 
+    transition: all .25s;
+
+    &:hover {
+      transform: translate(-0.25rem, -0.25rem);
+      @include boxShadow-thick;
+    }
   }
 
   &__icon {

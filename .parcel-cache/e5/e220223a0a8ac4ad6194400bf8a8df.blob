@@ -1,0 +1,66 @@
+"use strict";
+
+var helpers = require("../../../../../../../../../home/matt/.nvm/versions/node/v15.5.0/lib/node_modules/parcel/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = services;
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _lawn = _interopRequireDefault(require("../../../resources/icons/lawn.svg"));
+
+  var _demolition = _interopRequireDefault(require("../../../resources/icons/demolition.svg"));
+
+  var _excavator = _interopRequireDefault(require("../../../resources/icons/excavator.svg"));
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  function services() {
+    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
+      className: "services",
+      id: "services"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "services__details"
+    }, /*#__PURE__*/_react.default.createElement("img", {
+      className: "services__icon",
+      src: _lawn.default,
+      alt: "Weed-wacker icon"
+    }), /*#__PURE__*/_react.default.createElement("h3", {
+      className: "services__title"
+    }, /*#__PURE__*/_react.default.createElement("span", null, "Brush Cutting")), /*#__PURE__*/_react.default.createElement("p", {
+      className: "services__description"
+    }, "Hard to reach areas including pond levees, fence rows, land lines, road ways and right of ways, shooting lanes, etc.")), /*#__PURE__*/_react.default.createElement("div", {
+      className: "services__details"
+    }, /*#__PURE__*/_react.default.createElement("img", {
+      className: "services__icon",
+      src: _demolition.default,
+      alt: "Demolition icon"
+    }), /*#__PURE__*/_react.default.createElement("h3", {
+      className: "services__title"
+    }, /*#__PURE__*/_react.default.createElement("span", null, "Demolition")), /*#__PURE__*/_react.default.createElement("p", {
+      className: "services__descripion"
+    }, "Demolition and complete clean up of unwanted buildings or barns.")), /*#__PURE__*/_react.default.createElement("div", {
+      className: "services__details"
+    }, /*#__PURE__*/_react.default.createElement("img", {
+      className: "services__icon",
+      src: _excavator.default,
+      alt: "Excavator icon"
+    }), /*#__PURE__*/_react.default.createElement("h3", {
+      className: "services__title"
+    }, /*#__PURE__*/_react.default.createElement("span", null, "Excavation"), ' '), /*#__PURE__*/_react.default.createElement("p", {
+      className: "services__description"
+    }, "Stump removal, ditch digging, assist with field lines and septic tank installation, culvert installation, etc."))));
+  }
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

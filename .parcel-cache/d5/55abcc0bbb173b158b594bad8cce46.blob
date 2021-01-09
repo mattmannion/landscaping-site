@@ -1,0 +1,46 @@
+"use strict";
+
+var helpers = require("../../../../../../../../../home/matt/.nvm/versions/node/v15.5.0/lib/node_modules/parcel/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = contact;
+
+  var _react = _interopRequireDefault(require("react"));
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  function contact() {
+    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
+      className: "contact",
+      id: "contact"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "contact__container"
+    }, /*#__PURE__*/_react.default.createElement("h3", {
+      className: "contact__title"
+    }, /*#__PURE__*/_react.default.createElement("span", null, "Contact Us Today!")), /*#__PURE__*/_react.default.createElement("div", {
+      className: "contact__info"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "contact__details"
+    }, "1 (123)-456-7890")), /*#__PURE__*/_react.default.createElement("div", {
+      className: "contact__info"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "contact__details"
+    }, "some@email.com")), /*#__PURE__*/_react.default.createElement("div", {
+      className: "contact__info"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "contact__detail"
+    }, "Open X days a week!")))));
+  }
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

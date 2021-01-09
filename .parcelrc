@@ -1,6 +1,0 @@
-{
-  "extents": "@parcel/config-default",
-  "validators": {
-    "*.{ts,tsx}": {}
-  }
-}

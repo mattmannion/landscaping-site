@@ -1,0 +1,1 @@
+this extra folder exists because image and asset intellisense is based on the root on the main sass file. if the sass file is in the root sass folder instead of this nested one finding and linking files is truly aggrivating. doing this saves my sanity. test moving the sass.scss file out of here if you want to see what i mean.

@@ -1,0 +1,53 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.images = void 0;
+
+var _plants_ = _interopRequireDefault(require("../../../../resources/img/plants_1.JPG"));
+
+var _cleared_land_ = _interopRequireDefault(require("../../../../resources/img/cleared_land_1.JPG"));
+
+var _lake_ = _interopRequireDefault(require("../../../../resources/img/lake_3.JPG"));
+
+var _lake_2 = _interopRequireDefault(require("../../../../resources/img/lake_4.JPG"));
+
+var _lake_3 = _interopRequireDefault(require("../../../../resources/img/lake_5.JPG"));
+
+var _excavator_tall = _interopRequireDefault(require("../../../../resources/img/excavator_tall.PNG"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var images = [{
+  id: 1,
+  image: _cleared_land_.default
+}, {
+  id: 0,
+  image: _plants_.default
+}, // {
+//   id: 2,
+//   image: cleared_land_2,
+// },
+// {
+//   id: 3,
+//   image: lake_1,
+// },
+// {
+//   id: 4,
+//   image: lake_2,
+// },
+{
+  id: 5,
+  image: _lake_.default
+}, {
+  id: 6,
+  image: _lake_2.default
+}, {
+  id: 8,
+  image: _lake_3.default
+}, {
+  id: 9,
+  image: _excavator_tall.default
+}];
+exports.images = images;

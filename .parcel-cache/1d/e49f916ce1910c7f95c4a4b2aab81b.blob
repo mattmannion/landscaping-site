@@ -1,0 +1,46 @@
+"use strict";
+
+var helpers = require("../../../../../../../../../home/matt/.nvm/versions/node/v15.5.0/lib/node_modules/parcel/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+
+try {
+  Object.defineProperty(exports, "__esModule", {
+    value: true
+  });
+  exports.default = about;
+
+  var _react = _interopRequireDefault(require("react"));
+
+  var _slider = _interopRequireDefault(require("./about-comps/slider"));
+
+  var _images = require("./about-comps/images");
+
+  function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+  function about() {
+    return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
+      className: "about",
+      id: "about-us"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "about__container"
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      className: "about__details"
+    }, /*#__PURE__*/_react.default.createElement("h3", {
+      className: "about__underline"
+    }, /*#__PURE__*/_react.default.createElement("span", null, "About Us")), /*#__PURE__*/_react.default.createElement("p", null, "Family owned and operated business with 30+ years operating experience.")), /*#__PURE__*/_react.default.createElement("h3", {
+      className: "about__underline"
+    }, /*#__PURE__*/_react.default.createElement("span", null, "Our Work")), /*#__PURE__*/_react.default.createElement("div", {
+      className: "about__photo-viewer"
+    }, /*#__PURE__*/_react.default.createElement(_slider.default, {
+      slides: _images.images
+    })))));
+  }
+
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

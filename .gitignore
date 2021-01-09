@@ -1,4 +1,13 @@
+########################
+#### basic ignores #####
+########################
+
 .cache/
-node_modules/
+.git/
+.gitignore
 dist/
-landscaping.code-workspace
+node_modules/
+tdev.code-workspace
+
+## REMOVE ALL BELOW HERE ##
+
