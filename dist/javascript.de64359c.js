@@ -42275,9 +42275,8 @@ var _app = _interopRequireDefault(require("./components/app"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import '../sass/sass.scss';
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(_app.default, null), document.getElementById('root'));
-},{"core-js/stable":"../../node_modules/core-js/stable/index.js","regenerator-runtime/runtime":"../../node_modules/regenerator-runtime/runtime.js","react":"../../node_modules/react/index.js","react-dom":"../../node_modules/react-dom/index.js","./components/app":"../javascript/components/app.jsx"}],"../../../../../../../home/matt/.nvm/versions/node/v15.5.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"core-js/stable":"../../node_modules/core-js/stable/index.js","regenerator-runtime/runtime":"../../node_modules/regenerator-runtime/runtime.js","react":"../../node_modules/react/index.js","react-dom":"../../node_modules/react-dom/index.js","./components/app":"../javascript/components/app.jsx"}],"../../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -42305,7 +42304,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53642" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54491" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -42481,5 +42480,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../../home/matt/.nvm/versions/node/v15.5.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","../javascript/index.jsx"], null)
+},{}]},{},["../../node_modules/parcel/src/builtins/hmr-runtime.js","../javascript/index.jsx"], null)
 //# sourceMappingURL=/javascript.de64359c.js.map
