@@ -41922,10 +41922,13 @@ function nav() {
   }, "King Land Management"), /*#__PURE__*/_react.default.createElement("div", {
     className: "navigation__links"
   }, /*#__PURE__*/_react.default.createElement("a", {
+    className: "navigation__link",
     href: "#services"
   }, "Services"), /*#__PURE__*/_react.default.createElement("a", {
+    className: "navigation__link",
     href: "#about-us"
   }, "About"), /*#__PURE__*/_react.default.createElement("a", {
+    className: "navigation__link",
     href: "#contact"
   }, "Contact")))));
 }
@@ -42304,7 +42307,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54491" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54690" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

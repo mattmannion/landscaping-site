@@ -339,12 +339,12 @@ html {
   margin-left: 1rem;
 }
 .navigation__links {
+  display: flex;
+  justify-content: space-evenly;
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 2rem;
-  margin-right: 2rem;
 }
 .navigation__links a {
   transition: all 0.2s;
@@ -363,6 +363,9 @@ html {
   text-decoration: none;
   color: #a1af97;
   border-bottom: #a1af97 1px solid;
+}
+.navigation__link {
+  margin-right: 1.5rem;
 }
 
 .services {

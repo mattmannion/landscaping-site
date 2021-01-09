@@ -7,9 +7,15 @@ export default function nav() {
         <div className='navigation__container'>
           <div className='navigation__logo'>King Land Management</div>
           <div className='navigation__links'>
-            <a href='#services'>Services</a>
-            <a href='#about-us'>About</a>
-            <a href='#contact'>Contact</a>
+            <a className='navigation__link' href='#services'>
+              Services
+            </a>
+            <a className='navigation__link' href='#about-us'>
+              About
+            </a>
+            <a className='navigation__link' href='#contact'>
+              Contact
+            </a>
           </div>
         </div>
       </nav>
