@@ -42253,7 +42253,9 @@ function footer() {
     className: "footer__links"
   }, /*#__PURE__*/_react.default.createElement("a", {
     href: "#nav"
-  }, /*#__PURE__*/_react.default.createElement("div", null, "\u2191"), /*#__PURE__*/_react.default.createElement("div", null, "Back to the Top")))));
+  }, /*#__PURE__*/_react.default.createElement("div", null, "\u2191"), /*#__PURE__*/_react.default.createElement("div", null, "Back to the Top"))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer__copyright"
+  }, "Built and Designed by Matt Mannion \xA9 2021")));
 }
 },{"react":"../../node_modules/react/index.js"}],"../javascript/components/app.jsx":[function(require,module,exports) {
 "use strict";
@@ -42328,7 +42330,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49239" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52046" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

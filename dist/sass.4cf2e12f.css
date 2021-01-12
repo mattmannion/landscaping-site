@@ -277,14 +277,12 @@ html {
   word-wrap: normal;
 }
 .footer__logo {
-  margin-bottom: 7.5rem;
+  margin-bottom: 2.5rem;
 }
 .footer__links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
-  flex-flow: wrap;
 }
 .footer__links a {
   transition: all 0.2s;
@@ -304,6 +302,10 @@ html {
   text-decoration: none;
   color: #a1af97;
   border-bottom: #a1af97 1px solid;
+}
+.footer__copyright {
+  font-size: 0.75rem;
+  margin-top: 2rem;
 }
 
 .header {

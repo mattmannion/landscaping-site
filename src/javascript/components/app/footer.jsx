@@ -11,6 +11,9 @@ export default function footer() {
             <div>Back to the Top</div>
           </a>
         </div>
+        <div className='footer__copyright'>
+          Built and Designed by Matt Mannion &copy; 2021
+        </div>
       </footer>
     </>
   );
