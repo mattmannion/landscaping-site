@@ -5,6 +5,8 @@ export default function contact() {
   return (
     <>
       <div id='contact'></div>
+      <br />
+      <br />
       <section className='contact'>
         <div className='contact__container'>
           <h3 className='contact__title'>

@@ -42197,7 +42197,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function contact() {
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     id: "contact"
-  }), /*#__PURE__*/_react.default.createElement("section", {
+  }), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("section", {
     className: "contact"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "contact__container"
