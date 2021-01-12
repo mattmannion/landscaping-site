@@ -195,8 +195,23 @@ html {
   text-align: center;
   background-image: linear-gradient(120deg, #3f4122, #303119);
   padding: 2.5rem;
-  width: 35rem;
+  width: 30rem;
   border-radius: 0.25rem;
+}
+@media screen and (min-width: 375px) {
+  .contact__container {
+    width: 32.5rem;
+  }
+}
+@media screen and (min-width: 425px) {
+  .contact__container {
+    width: 35rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .contact__container {
+    width: 40rem;
+  }
 }
 .contact__title {
   margin-bottom: 2.5rem;
@@ -216,6 +231,38 @@ html {
 .contact__icon {
   height: 2.5rem;
   margin-bottom: 1.5rem;
+}
+.contact__details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.contact__facebook {
+  display: flex;
+  align-items: center;
+}
+.contact__facebook-icon {
+  margin-top: 2rem;
+  height: 5rem;
+  background-color: #fff;
+  transition: all 0.2s;
+}
+.contact__facebook-icon:active, .contact__facebook-icon:hover {
+  background-color: #aaa;
+}
+.contact__facebook-link:link, .contact__facebook-link:visited {
+  text-decoration: none;
+  color: #d1e2c4;
+  padding-bottom: 0.25rem;
+  border-bottom: #d1e2c4 1px solid;
+  font-weight: 300;
+  font-weight: 700;
+}
+.contact__facebook-link:active, .contact__facebook-link:hover {
+  text-decoration: none;
+  color: #a1af97;
+  border-bottom: #a1af97 1px solid;
 }
 
 .footer {

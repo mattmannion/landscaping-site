@@ -42160,9 +42160,10 @@ var _images = require("./about-comps/images");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function about() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
-    className: "about",
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     id: "about-us"
+  }), /*#__PURE__*/_react.default.createElement("section", {
+    className: "about"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "about__container"
   }, /*#__PURE__*/_react.default.createElement("div", {
@@ -42177,7 +42178,9 @@ function about() {
     slides: _images.images
   })))));
 }
-},{"react":"../../node_modules/react/index.js","./about-comps/slider":"../javascript/components/app/about-comps/slider.jsx","./about-comps/images":"../javascript/components/app/about-comps/images.jsx"}],"../javascript/components/app/contact.jsx":[function(require,module,exports) {
+},{"react":"../../node_modules/react/index.js","./about-comps/slider":"../javascript/components/app/about-comps/slider.jsx","./about-comps/images":"../javascript/components/app/about-comps/images.jsx"}],"../resources/icons/facebook-svgrepo-com.svg":[function(require,module,exports) {
+module.exports = "/facebook-svgrepo-com.892937e7.svg";
+},{}],"../javascript/components/app/contact.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -42186,6 +42189,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = contact;
 
 var _react = _interopRequireDefault(require("react"));
+
+var _facebookSvgrepoCom = _interopRequireDefault(require("../../../resources/icons/facebook-svgrepo-com.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42201,17 +42206,32 @@ function contact() {
     className: "contact__info"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "contact__details"
-  }, "1 (123)-456-7890")), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "contant__name"
+  }, "Kris:"), /*#__PURE__*/_react.default.createElement("p", null, "1 (601)-303-0460"))), /*#__PURE__*/_react.default.createElement("div", {
     className: "contact__info"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "contact__details"
-  }, "some@email.com")), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "contant__name"
+  }, "David:"), /*#__PURE__*/_react.default.createElement("p", null, "1 (601)-522-6769"))), /*#__PURE__*/_react.default.createElement("div", {
     className: "contact__info"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "contact__detail"
-  }, "Open X days a week!")))));
+    className: "contact__details"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    className: "contact__facebook-link",
+    target: "_blank",
+    href: "https://www.facebook.com/pages/category/Agricultural-Service/King-Land-Management-LLC-101805548483921/"
+  }, "Follow us on FaceBook!"), /*#__PURE__*/_react.default.createElement("a", {
+    target: "_blank",
+    href: "https://www.facebook.com/pages/category/Agricultural-Service/King-Land-Management-LLC-101805548483921/"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "contact__facebook-icon",
+    src: _facebookSvgrepoCom.default,
+    alt: ""
+  })))))));
 }
-},{"react":"../../node_modules/react/index.js"}],"../javascript/components/app/footer.jsx":[function(require,module,exports) {
+},{"react":"../../node_modules/react/index.js","../../../resources/icons/facebook-svgrepo-com.svg":"../resources/icons/facebook-svgrepo-com.svg"}],"../javascript/components/app/footer.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -42307,7 +42327,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54690" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49239" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

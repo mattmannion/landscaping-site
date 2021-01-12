@@ -5,7 +5,8 @@ import { images } from './about-comps/images';
 export default function about() {
   return (
     <>
-      <section className='about' id='about-us'>
+      <div id='about-us'></div>
+      <section className='about'>
         <div className='about__container'>
           <div className='about__details'>
             <h3 className='about__underline'>

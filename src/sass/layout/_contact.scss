@@ -6,8 +6,20 @@
     text-align: center;
     background-image: linear-gradient(120deg, $olive-secondary, $olive-tertiary);
     padding: 2.5rem;
-    width: 35rem;
+    width: 30rem;
     border-radius: .25rem;
+
+    @include respond(phone-m-min) {
+      width: 32.5rem;
+    }
+
+    @include respond(phone-l) {
+      width: 35rem;
+    }
+
+    @include respond(fourthree) {
+      width: 40rem;
+    }
 
   }
 
@@ -32,5 +44,41 @@
   &__icon {
     height: 2.5rem;
     margin-bottom: 1.5rem;
+  }
+
+  &__details {
+    @include centerFlex;
+    flex-flow: column;
+
+  }
+
+  &__facebook {
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      margin-top: 2rem;
+      height: 5rem;
+      background-color: $white;
+      transition: all .2s;
+
+      &:active,
+      &:hover {
+        background-color: #aaa;
+      }
+    }
+
+    &-link {
+
+      &:link,
+      &:visited {
+        @include linkStyle-link-visited;
+      }
+
+      &:active,
+      &:hover {
+        @include linkStyle-active-hover;
+      }
+    }
   }
 }
