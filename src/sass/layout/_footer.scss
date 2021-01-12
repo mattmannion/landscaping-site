@@ -3,14 +3,13 @@
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: center;
-  padding: 2.5rem;
-  gap: 1rem;
+  align-items: space-evenly;
+  padding: 2rem;
   text-align: center;
   word-wrap: normal;
 
   &__logo {
-    margin-bottom: 2.5rem;
+    margin-bottom: 5rem;
   }
 
   &__links {
@@ -34,6 +33,11 @@
 
   &__copyright {
     font-size: .75rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+
+    p:first-child {
+      margin-bottom: .5rem;
+    }
   }
 }

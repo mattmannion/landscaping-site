@@ -12,7 +12,8 @@ export default function footer() {
           </a>
         </div>
         <div className='footer__copyright'>
-          Built and Designed by Matt Mannion &copy; 2021
+          <p>Built and Designed by Matt Mannion &copy; 2021</p>
+          <p>with the help of Khris Rhodes</p>
         </div>
       </footer>
     </>
