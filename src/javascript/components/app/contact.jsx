@@ -4,7 +4,8 @@ import facebook from '../../../resources/icons/facebook-svgrepo-com.svg';
 export default function contact() {
   return (
     <>
-      <section className='contact' id='contact'>
+      <div id='contact'></div>
+      <section className='contact'>
         <div className='contact__container'>
           <h3 className='contact__title'>
             <span>Contact Us Today!</span>

@@ -42195,9 +42195,10 @@ var _facebookSvgrepoCom = _interopRequireDefault(require("../../../resources/ico
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function contact() {
-  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("section", {
-    className: "contact",
+  return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     id: "contact"
+  }), /*#__PURE__*/_react.default.createElement("section", {
+    className: "contact"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "contact__container"
   }, /*#__PURE__*/_react.default.createElement("h3", {
