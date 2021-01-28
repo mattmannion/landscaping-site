@@ -1,4 +1,3 @@
-import React from 'react';
 import facebook from '../../../resources/icons/facebook-svgrepo-com.svg';
 
 export default function contact() {

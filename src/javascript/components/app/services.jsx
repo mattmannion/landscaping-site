@@ -1,4 +1,3 @@
-import React from 'react';
 import lawn from '../../../resources/icons/lawn.svg';
 import demolition from '../../../resources/icons/demolition.svg';
 import excavator from '../../../resources/icons/excavator.svg';

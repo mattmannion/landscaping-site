@@ -1,4 +1,3 @@
-import React from 'react';
 import Nav from './app/nav';
 import Header from './app/header';
 import Services from './app/services';

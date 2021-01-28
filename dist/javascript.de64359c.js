@@ -43118,10 +43118,6 @@ exports.default = nav;
 
 var _jsxRuntime = require("react/jsx-runtime");
 
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 function nav() {
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
     children: /*#__PURE__*/(0, _jsxRuntime.jsx)("nav", {
@@ -43152,7 +43148,7 @@ function nav() {
     })
   });
 }
-},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","react":"../../node_modules/react/index.js"}],"../javascript/components/app/header.jsx":[function(require,module,exports) {
+},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js"}],"../javascript/components/app/header.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43161,10 +43157,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = header;
 
 var _jsxRuntime = require("react/jsx-runtime");
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function header() {
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
@@ -43187,7 +43179,7 @@ function header() {
     })
   });
 }
-},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","react":"../../node_modules/react/index.js"}],"../resources/icons/lawn.svg":[function(require,module,exports) {
+},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js"}],"../resources/icons/lawn.svg":[function(require,module,exports) {
 module.exports = "/lawn.7e56f098.svg";
 },{}],"../resources/icons/demolition.svg":[function(require,module,exports) {
 module.exports = "/demolition.0a65a951.svg";
@@ -43202,8 +43194,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = services;
 
 var _jsxRuntime = require("react/jsx-runtime");
-
-var _react = _interopRequireDefault(require("react"));
 
 var _lawn = _interopRequireDefault(require("../../../resources/icons/lawn.svg"));
 
@@ -43273,7 +43263,7 @@ function services() {
     })
   });
 }
-},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","react":"../../node_modules/react/index.js","../../../resources/icons/lawn.svg":"../resources/icons/lawn.svg","../../../resources/icons/demolition.svg":"../resources/icons/demolition.svg","../../../resources/icons/excavator.svg":"../resources/icons/excavator.svg"}],"../resources/img/plants_1_m.webp":[function(require,module,exports) {
+},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","../../../resources/icons/lawn.svg":"../resources/icons/lawn.svg","../../../resources/icons/demolition.svg":"../resources/icons/demolition.svg","../../../resources/icons/excavator.svg":"../resources/icons/excavator.svg"}],"../resources/img/plants_1_m.webp":[function(require,module,exports) {
 module.exports = "/plants_1_m.df4febc7.webp";
 },{}],"../resources/img/cleared_land_1_m.webp":[function(require,module,exports) {
 module.exports = "/cleared_land_1_m.0939fb26.webp";
@@ -43369,7 +43359,7 @@ exports.default = Slider;
 
 var _jsxRuntime = require("react/jsx-runtime");
 
-var _react = _interopRequireWildcard(require("react"));
+var _react = require("react");
 
 var _images = require("./images");
 
@@ -43378,10 +43368,6 @@ var _caretLeft = _interopRequireDefault(require("../../../../resources/icons/car
 var _caretRight = _interopRequireDefault(require("../../../../resources/icons/caret-right.svg"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function Slider({
   slides
@@ -43439,8 +43425,6 @@ exports.default = about;
 
 var _jsxRuntime = require("react/jsx-runtime");
 
-var _react = _interopRequireDefault(require("react"));
-
 var _slider = _interopRequireDefault(require("./about-comps/slider"));
 
 var _images = require("./about-comps/images");
@@ -43480,7 +43464,7 @@ function about() {
     })]
   });
 }
-},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","react":"../../node_modules/react/index.js","./about-comps/slider":"../javascript/components/app/about-comps/slider.jsx","./about-comps/images":"../javascript/components/app/about-comps/images.jsx"}],"../resources/icons/facebook-svgrepo-com.svg":[function(require,module,exports) {
+},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","./about-comps/slider":"../javascript/components/app/about-comps/slider.jsx","./about-comps/images":"../javascript/components/app/about-comps/images.jsx"}],"../resources/icons/facebook-svgrepo-com.svg":[function(require,module,exports) {
 module.exports = "/facebook-svgrepo-com.892937e7.svg";
 },{}],"../javascript/components/app/contact.jsx":[function(require,module,exports) {
 "use strict";
@@ -43491,8 +43475,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = contact;
 
 var _jsxRuntime = require("react/jsx-runtime");
-
-var _react = _interopRequireDefault(require("react"));
 
 var _facebookSvgrepoCom = _interopRequireDefault(require("../../../resources/icons/facebook-svgrepo-com.svg"));
 
@@ -43571,7 +43553,7 @@ function contact() {
     })]
   });
 }
-},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","react":"../../node_modules/react/index.js","../../../resources/icons/facebook-svgrepo-com.svg":"../resources/icons/facebook-svgrepo-com.svg"}],"../javascript/components/app/footer.jsx":[function(require,module,exports) {
+},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","../../../resources/icons/facebook-svgrepo-com.svg":"../resources/icons/facebook-svgrepo-com.svg"}],"../javascript/components/app/footer.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43580,10 +43562,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = footer;
 
 var _jsxRuntime = require("react/jsx-runtime");
-
-var _react = _interopRequireDefault(require("react"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function footer() {
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {
@@ -43613,7 +43591,7 @@ function footer() {
     })
   });
 }
-},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","react":"../../node_modules/react/index.js"}],"../javascript/components/app.jsx":[function(require,module,exports) {
+},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js"}],"../javascript/components/app.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43622,8 +43600,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = App;
 
 var _jsxRuntime = require("react/jsx-runtime");
-
-var _react = _interopRequireDefault(require("react"));
 
 var _nav = _interopRequireDefault(require("./app/nav"));
 
@@ -43647,7 +43623,7 @@ function App() {
     })
   });
 }
-},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","react":"../../node_modules/react/index.js","./app/nav":"../javascript/components/app/nav.jsx","./app/header":"../javascript/components/app/header.jsx","./app/services":"../javascript/components/app/services.jsx","./app/about":"../javascript/components/app/about.jsx","./app/contact":"../javascript/components/app/contact.jsx","./app/footer":"../javascript/components/app/footer.jsx"}],"../javascript/index.jsx":[function(require,module,exports) {
+},{"react/jsx-runtime":"../../node_modules/react/jsx-runtime.js","./app/nav":"../javascript/components/app/nav.jsx","./app/header":"../javascript/components/app/header.jsx","./app/services":"../javascript/components/app/services.jsx","./app/about":"../javascript/components/app/about.jsx","./app/contact":"../javascript/components/app/contact.jsx","./app/footer":"../javascript/components/app/footer.jsx"}],"../javascript/index.jsx":[function(require,module,exports) {
 "use strict";
 
 var _jsxRuntime = require("react/jsx-runtime");
@@ -43693,7 +43669,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51678" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51824" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

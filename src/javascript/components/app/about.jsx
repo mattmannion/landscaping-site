@@ -1,4 +1,3 @@
-import React from 'react';
 import Slider from './about-comps/slider';
 import { images } from './about-comps/images';
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { images } from './images';
 import left_arrow from '../../../../resources/icons/caret-left.svg';
 import right_arrow from '../../../../resources/icons/caret-right.svg';
