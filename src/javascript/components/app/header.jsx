@@ -3,7 +3,7 @@ import React from 'react';
 export default function header() {
   return (
     <>
-      <header className='header'>
+      <header className='header fade-in-fx'>
         <div className='header__title'>
           <h1>King Land Management</h1>
         </div>

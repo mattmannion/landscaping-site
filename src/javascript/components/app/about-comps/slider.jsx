@@ -25,6 +25,8 @@ export default function Slider({ slides }) {
           alt='left arrow'
           className='slider__la slider__arrow'
           onClick={prev}
+          width='75px'
+          height='75px'
         />
         {images.map((img, index) => {
           return (
@@ -34,7 +36,14 @@ export default function Slider({ slides }) {
                 index === current ? 'slider__photo active' : 'slider__photo'
               }
             >
-              {index === current && <img src={img.image} alt='photos' />}
+              {index === current && (
+                <img
+                  src={img.image}
+                  alt='photos'
+                  width='640px'
+                  height='800px'
+                />
+              )}
             </div>
           );
         })}
@@ -43,6 +52,8 @@ export default function Slider({ slides }) {
           alt='right arrow'
           className='slider__ra slider__arrow'
           onClick={next}
+          width='75px'
+          height='75px'
         />
       </div>
     </>

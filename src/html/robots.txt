@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: http://www.kinglandmanagementllc.com/sitemap.xml
+# Sitemap: http://localhost:1234/sitemap.xml

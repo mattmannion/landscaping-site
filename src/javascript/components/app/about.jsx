@@ -6,20 +6,20 @@ export default function about() {
   return (
     <>
       <div id='about-us'></div>
-      <section className='about'>
+      <section className='about fade-in-fx'>
         <div className='about__container'>
           <div className='about__details'>
-            <h3 className='about__underline'>
+            <div className='about__underline'>
               <span>About Us</span>
-            </h3>
+            </div>
             <p>
               Family owned and operated business with 30+ years operating
               experience.
             </p>
           </div>
-          <h3 className='about__underline'>
+          <div className='about__underline'>
             <span>Our Work</span>
-          </h3>
+          </div>
           <div className='about__photo-viewer'>
             <Slider slides={images} />
           </div>

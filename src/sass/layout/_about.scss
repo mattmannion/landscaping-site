@@ -8,16 +8,20 @@
     margin-bottom: 2rem;
 
     span {
-      border-bottom: $dark-main solid 2px;
+      color: #000;
+      border-bottom: #000 solid 2px;
       padding-bottom: .5rem;
+      font-weight: 700;
+
     }
+
   }
 
   &__container {
     @include centerFlex;
     justify-content: space-evenly;
     flex-flow: column;
-    background-color: rgba($dark-main, 0.35);
+    background-color: rgba($dark-main, 0.2);
     color: $dark-main;
     height: 61.5rem;
     width: 30rem;
@@ -46,6 +50,10 @@
     font-weight: 300;
     margin-bottom: 2rem;
 
+    p {
+      color: #000;
+      font-weight: 300;
+    }
   }
 
   &__photo-viewer {

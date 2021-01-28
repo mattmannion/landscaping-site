@@ -3,7 +3,7 @@ import React from 'react';
 export default function footer() {
   return (
     <>
-      <footer className='footer'>
+      <footer className='footer fade-in-fx'>
         <div className='footer__logo'>King Land Management, LLC</div>
         <div className='footer__links'>
           <a href='#nav'>

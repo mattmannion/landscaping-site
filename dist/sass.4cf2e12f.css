@@ -1,3 +1,21 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in-fx {
+  opacity: 0;
+  /* make things invisible upon start */
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation: fadeIn ease-in 0.5s;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode: forwards;
+  animation-duration: 0.5s;
+}
+
 *,
 *::before,
 *::after {
@@ -90,8 +108,10 @@ html {
   margin-bottom: 2rem;
 }
 .about__underline span {
-  border-bottom: #222 solid 2px;
+  color: #000;
+  border-bottom: #000 solid 2px;
   padding-bottom: 0.5rem;
+  font-weight: 700;
 }
 .about__container {
   display: flex;
@@ -99,7 +119,7 @@ html {
   align-items: center;
   justify-content: space-evenly;
   flex-flow: column;
-  background-color: rgba(34, 34, 34, 0.35);
+  background-color: rgba(34, 34, 34, 0.2);
   color: #222;
   height: 61.5rem;
   width: 30rem;
@@ -129,6 +149,10 @@ html {
   font-size: 2.5rem;
   font-weight: 300;
   margin-bottom: 2rem;
+}
+.about__details p {
+  color: #000;
+  font-weight: 300;
 }
 .about__photo-viewer {
   display: flex;
@@ -244,6 +268,7 @@ html {
 }
 .contact__facebook-icon {
   margin-top: 2rem;
+  width: 5rem;
   height: 5rem;
   background-color: #fff;
   transition: all 0.2s;
@@ -318,7 +343,7 @@ html {
   flex-flow: column;
   position: relative;
   min-height: 100vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/excavator_main.705df8c4.PNG);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/excavator_main_m.1be34d2e.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -442,7 +467,7 @@ html {
   width: 20rem;
   margin: 2rem;
   padding: 2rem;
-  background-color: rgba(83, 111, 22, 0.67);
+  background-color: rgba(83, 111, 22, 0.55);
   border: rgba(63, 65, 34, 0.2) solid 1px;
   border-radius: 0.25rem;
   box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
@@ -462,9 +487,11 @@ html {
 .services__title span {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #222;
+  font-weight: 700;
 }
 .services__details {
   font-weight: 300;
+  color: #000;
 }
 
 .body-container {
