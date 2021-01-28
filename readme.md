@@ -1,6 +1,6 @@
 Landscaping project for client.
 
---ON GOING--
+--DONE--
 
 #########################################
 
