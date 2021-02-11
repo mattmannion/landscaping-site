@@ -3,7 +3,7 @@ Landscaping project for client.
 
 --DONE--
 
-[Perfect Lighthouse Score](https://i.imgur.com/2PHiLn4.png)
+![Perfect Lighthouse Score](https://i.imgur.com/2PHiLn4.png)
 
 #########################################
 
