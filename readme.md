@@ -1,5 +1,4 @@
-URL: https://www.kinglandmanagementllc.com/index.html
-
+URL: https://www.kinglandmanagementllc.com
 Landscaping project for client.
 
 --DONE--
