@@ -3,6 +3,8 @@ Landscaping project for client.
 
 --DONE--
 
+[Perfect Lighthouse Score](https://i.imgur.com/2PHiLn4.png)
+
 #########################################
 
 Matt Mannion's React App setup w/ Parcel and Sass.
